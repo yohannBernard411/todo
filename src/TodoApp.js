@@ -5,7 +5,7 @@ import './Todo.css'
 export default class TodoApp extends React.Component{
   constructor(props) {
     super(props)
-    this.state={ 
+    this.state={
       items: [
         {text: "item 1", done: false, key: new Date().getMilliseconds() + 1},
         {text: "item 2", done: false, key: new Date().getMilliseconds() + 2},
